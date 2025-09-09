@@ -17,8 +17,8 @@ Before going into any detail, I'll describe my learning algorithm and two curren
 
 ### Relevant Folders
 Right now, the two folders I'm focused on are: 
-1. [Feynman Explanations and Flashcard Practice]([url](https://github.com/Mark-Kagach/learning_ml/tree/main/Feynman%20Explanations%20and%20Flashcards%20Practice)) is where I upload my ≈daily flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
-2. [Hands-on ML Book Practice]([url](https://github.com/Mark-Kagach/learning_ml/tree/main/Hands-on%20ML%20Book%20Practice)) is where I practice ML techniques through execrises of Hands-on ML book by Geron Aurelien.
+1. ([Feynman Explanations and Flashcard Practice](https://github.com/Mark-Kagach/learning_ml/tree/main/Feynman%20Explanations%20and%20Flashcards%20Practice)) is where I upload my ≈daily flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
+2. ([Hands-on ML Book Practice]([https://github.com/Mark-Kagach/learning_ml/tree/main/Hands-on%20ML%20Book%20Practice](https://github.com/Mark-Kagach/learning_ml/tree/f163bd9363f8162810c905f7e1ff760908d774f4/Hands-on%20ML%20Book%20Practice))) is where I practice ML techniques through execrises of Hands-on ML book by Geron Aurelien.
 
 ### Details
 All of this is public because I want to show __consistency and seriousness__ I apply to getting better at ML (I also perform better with public accountability).
