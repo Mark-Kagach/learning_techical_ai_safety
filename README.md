@@ -7,7 +7,11 @@ As of September 2025, this is translated into two specific goals:
 2. Generate a novel ML research idea, implement and communicate it (e.g. writing a paper, or big essay). 
 
 ## Solution
-Before going into any detail, I'll describe my learning algorithm and two currently relevant folders to it.
+The solution is **consistency and seriousness of practice**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice).
+
+I publish this because, besides value of signaling, I work better under public accountability.
+
+Below I describe my learning approach and some additional details.
 
 ### Learning Algorithm
 1. Understand important concepts, techniques.
@@ -15,14 +19,11 @@ Before going into any detail, I'll describe my learning algorithm and two curren
 3. Apply techniques (for concepts generate examples and see how theory plays out).
 4. Remember both. Theory through flashcards and feynman lessons, practice through consistent exercises (and big projects in the long-run).
 
-### Relevant Folders
-Right now, the two folders I'm focused on are: 
-1. [Feynman Explanations and Flashcard Practice](https://github.com/Mark-Kagach/learning_ml/tree/main/Feynman%20Explanations%20and%20Flashcards%20Practice) is where I upload my ≈daily flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
-2. [Hands-on ML Book Practice](https://github.com/Mark-Kagach/learning_ml/tree/main/Hands-on%20ML%20Book%20Practice) is where I practice ML techniques through execrises of Hands-on ML book by Geron Aurelien.
+Theoretical practice is mainly divided into uploading my flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
+
+Whereas technical practice is either Kaggle competitions, exercises from textbooks (e.g. Hands-on ML book by Geron Aurelien) or other random sources. As I mature in my skill I'll focus more on completing longer complex projects.
 
 ### Details
-All of this is public because I want to show __consistency and seriousness__ I apply to getting better at ML (I also perform better with public accountability).
-
 The main idea is to treat ML and my training of it with similar attitude as professional athletes treat their [practices](https://open.spotify.com/episode/1V1b314FLv4bn0KbauqvUa?si=dF9lIgVwTFWTmyyWRURUEA&t=4599). (Here are the main books I used to understand what good practice is: Peak, The Art of Learning, Get better at anything, and Ultralearning.)
 
 I also try to heavily triage what I consider relevant theory and techniques to practice based on my goals. (For example, if you want to be an alignment researcher, unlikely you need to know cutting edge computer vision techniques.)
