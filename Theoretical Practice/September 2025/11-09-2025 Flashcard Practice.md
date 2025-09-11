@@ -1,0 +1,7 @@
+ML  is about capturing some phenomena of nature, and then preparing the collected data to be analyzed by an algorithm (model) that should find useful pattern that can be used for new cases.
+
+Thus broadly one can see the steps of an ml project as:
+1. Understing the problem space. Which means deeply understanding the problem so you don't optimize things that shouldn't exist, or missing a simpler solution. As you understand deeply the problem, you can analyze the solution space, see the critical constraints to viable solution and what can be removed (scoped) to save shitload of resources while still solving the problem.
+2. As you deeply undearstood the problem, have some ideas for a solution you can start collecting the data about the phenomena. You need to visualize, understand data, divide it into test/val sets. You then need to clean and process it. Do a bunch of stuff so that our model (algorithms) can properly work on it and give reasonable useful outputs.
+3. As you have collected, cleaned and processed the data (which actually takes around 80% of the job!) you're ready to apply and test several models. As you try them you evaluate on a validation set, maybe using cross validation. All for optimizing generalizable model and its hyperparameters. Then you train the model and run it against the test set.
+4. Then you are ready to deploy. You know how good your model is, you need to prepare it for launch, write production quality code. Make pipeline etc. You need to present your solution and clearly communicate it. Launch, monitor, and maintain.
