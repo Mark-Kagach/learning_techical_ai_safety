@@ -9,7 +9,7 @@ As of September 2025, this is translated into two specific goals:
 ## Solution
 The solution is **consistency and seriousness of practice**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice) parts.
 
-I publish this because, besides value of signaling, I work better under public accountability.
+I publish this because, besides the value of signaling, I work better under public accountability.
 
 Below I describe my learning approach and some additional details.
 
