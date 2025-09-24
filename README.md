@@ -14,10 +14,10 @@ I publish this because, besides the value of signaling, I work better under publ
 Below I describe my learning approach and some additional details.
 
 ### Learning Algorithm
-1. Understand important concepts, techniques.
-2. Explain them in my own words (usually means making notes/ flashcards).
-3. Apply techniques (for concepts generate examples and see how theory plays out).
-4. Remember both. Theory through flashcards and feynman lessons, practice through consistent exercises (and big projects in the long-run).
+1. **Understand** important concepts, techniques.
+2. **Explain** them in my own words (usually means making notes/ flashcards).
+3. **Apply** techniques (for concepts generate examples and see how theory plays out).
+4. **Remember** both. Theory through flashcards and feynman lessons, practice through consistent exercises (and big projects in the long-run).
 
 [Theoretical practice](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) is mainly divided into uploading my flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
 
@@ -28,4 +28,4 @@ The main idea is to treat ML and my training of it with similar attitude as prof
 
 I also try to heavily triage what I consider relevant theory and techniques to practice based on my goals. (For example, if you want to be an alignment researcher, unlikely you need to know cutting edge computer vision techniques.)
 
-Some of my previous ML work was: doing CS50ai, Andrew Ng's ML Specialialization, and a personal project of making a paul graham RAG and connecting it to MCP.
+Some of my previous ML work was: doing CS50ai, Andrew Ng's ML Specialialization, and a personal project of making a Paul Graham RAG and connecting it to MCP.
