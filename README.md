@@ -1,4 +1,4 @@
-This is my training camp where I practice and improve my machine learning craft.
+This is my practice camp where I improve my machine learning craft.
 
 ## The Goal is to: Master ML to solve advanced real-world problems; with deep theoretical understanding to conduct research in a chosen niche.
 
