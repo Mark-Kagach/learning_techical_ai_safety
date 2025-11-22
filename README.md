@@ -1,4 +1,4 @@
-This is my practice camp where I improve my machine learning craft.
+This is my practice camp for improving my machine learning craft.
 
 ## The Goal is to: Master ML to solve advanced real-world problems; with deep theoretical understanding to conduct research in a chosen niche.
 
@@ -29,3 +29,30 @@ The main idea is to treat ML and my training of it with similar attitude as prof
 I also try to heavily triage what I consider relevant theory and techniques to practice based on my goals. (For example, if you want to be an alignment researcher, unlikely you need to know cutting edge computer vision techniques.)
 
 Some of my previous ML work was: doing CS50ai, Andrew Ng's ML Specialialization, and a personal project of making a Paul Graham RAG and connecting it to MCP.
+
+## Weekly Work Log
+**Sep 2025**
+- W36:
+- W37:
+- W38:
+- W39:
+- W40:
+
+**Oct 2025**
+- W41:
+- W42:
+- W43:
+- W44:
+
+**Nov 2025**
+- W45:
+- W46:
+- W47:
+- W48:
+
+**Dec 2025**
+- W49: 
+- W50: 
+- W51: 
+- W52: 
+
