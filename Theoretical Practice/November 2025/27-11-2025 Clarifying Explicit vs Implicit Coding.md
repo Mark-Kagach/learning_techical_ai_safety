@@ -135,11 +135,10 @@ And besides conversation on why ML models are so data hungry, because they learn
 
 The question of whether code (explicit or implicit) always models phenomena of nature is useless. I err on the side that it always does, as any math is also part of nature.
 
-
-![photo_5280615570237754568_y](https://github.com/user-attachments/assets/4ddd9ff5-ebee-4a09-8957-b710941fd430)
-![photo_5280615570237754567_y](https://github.com/user-attachments/assets/a7f5118d-010e-41d7-9046-0dd2a48b19ed)
-![photo_5280615570237754566_y](https://github.com/user-attachments/assets/3d202c92-df76-496e-9214-9309229b3582)
-![photo_5280615570237754565_y](https://github.com/user-attachments/assets/d3b65fc2-6909-41f3-8c5f-80f932f4add4)
-![photo_5280615570237754564_y](https://github.com/user-attachments/assets/069f6867-5e60-479a-8249-7d45fda5d1b7)
-![photo_5280615570237754563_y](https://github.com/user-attachments/assets/05e40a1e-6a62-4365-a70e-2e6f3d6f8f5e)
 ![photo_5280615570237754562_y](https://github.com/user-attachments/assets/686ece83-4ee7-4b5f-9a5e-2a08444196cc)
+![photo_5280615570237754563_y](https://github.com/user-attachments/assets/05e40a1e-6a62-4365-a70e-2e6f3d6f8f5e)
+![photo_5280615570237754564_y](https://github.com/user-attachments/assets/069f6867-5e60-479a-8249-7d45fda5d1b7)
+![photo_5280615570237754565_y](https://github.com/user-attachments/assets/d3b65fc2-6909-41f3-8c5f-80f932f4add4)
+![photo_5280615570237754566_y](https://github.com/user-attachments/assets/3d202c92-df76-496e-9214-9309229b3582)
+![photo_5280615570237754567_y](https://github.com/user-attachments/assets/a7f5118d-010e-41d7-9046-0dd2a48b19ed)
+![photo_5280615570237754568_y](https://github.com/user-attachments/assets/4ddd9ff5-ebee-4a09-8957-b710941fd430)
