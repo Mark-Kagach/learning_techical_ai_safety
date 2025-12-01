@@ -1,0 +1,85 @@
+# Goal
+
+In line with getting good AI fundamentals was reading AI modern approach (AIMA) first chapter. Really liked it. Possibly changing my opinion on how useful AIMA is as a resource.
+
+# My notes:
+
+- Explicit Coding/ Implicit Coding vs Intelligence (Modelling and Steering)
+    - I treat Artificial Intelligence as just another approach to Software, i.e. instructing computers. 
+    - All what computers do is: Input ⇒ Transformations ⇒ Output.
+    - Explicit Coding (Software Engineering) is about programmer finding the right transformations for the problem at hand.
+    - Implicit Coding is about outsourcing search of right transformations to computer. This is done through learning algorithm that should find right transformations based on the goal given by programmer.
+    - 
+    - You can think of it as:
+    - Explicit Coding: programmer(input => transformations => output) where programmer is performing search for transformations.
+    - Implicit Coding: programmer(learning_algorithm(input => transformations => output) programmer is operating at a higher abstraction level, searching for the right learning_algorithm to find appropriate transformations.
+    - 
+    - It is fair to say that programmer also has in his brain some learning algorithm that humans use (One Learning Algorithm), so he is running it when searching for transformations. 
+    - This way of defining the field, or type of coding, explains why humans need so much less data, energy, and generalize better than whatever learning algorithms we give to computers ‒ ours is just light years more efficient.
+    - 
+    - Artificial Intelligence is actually the field studying intelligence, something that can be defined in myriad of ways. 
+    - From this perspective Artificial Intelligence: a Modern Approach perceives intelligence from dimensions of human vs rational, thoughts vs actions.
+    - Is this a useful level to operate in?
+    - Humans are indeed a rare example of intelligence (in whatever way you define), we have a uniquely efficient learning algorithm for finding solutions to problems. Another example would possibly be evolution.
+    - 
+    - One way to talk about intelligence is coming back to the learning_algorithm on top. Intelligence is a search for transformations to achieve some goal given the starting position. 
+    - You can think of it as Modelling and Steering.
+    - Modelling just turns to be very useful when you want to change reality to something else. It is useful to understand/ model/ have representations of the phenomena you deal with to influence it as you like.
+    - This is why the computer learning algorithms also do it. They model the phenomena (occasionally it takes most of compute and data), to then influence it. And we call that modelling understanding.
+    - But understanding implies one thing that is a whole different conversation: Consciousness . Searching and finding wanted transformations doesn't mean consciousness whatsoever. Well, we don't have any good theory about what consciousness is: maybe it is. But as a rule of thumb, we'd agree Evolution  isn't conscious, yet it always searches and finds transformations that propagate. 
+    - 
+    - So when you try to define Intelligence, you can talk about thoughts, behaviors, rational vs irrational (would really question how that is defined). 
+    - Or you can just talk about finding right transformations, and the right learning_algorithm, which probably, as part of finding good transformations, will have a very good model of the phenomena at hand, because it is useful to "understand" (no Consciousness  implied) something to then change it. 
+    - And actions are about applying physical leverage based on the transformed information.
+    - 
+    - So, to avoid debates about Consciousness , I like to talk about finding better and better learning_algorithms, maybe finding those used by humans, or by evolution, or creating new better ones! As a mean to achieve some goal, which would include understanding the phenomena/ world, and then changing it to the reality you want. Modelling and Steering!
+    - 
+- 
+- Implicit Coding, Problem and Field Range, Agents
+    - Implicit Coding has different types of problems it tries to solve, like using language (Natural Language Processing), Computer Vision, Robotics, Knowledge Representation (storing computer's knowledge and retrieving it successfully) and so on.
+    - One of the holy grails of Implicit Coding/ Artificial Intelligence would be the creation of an Agent ‒ program that can form long-term tasks, and successfully steer environment to achieve them. 
+    - 
+    - In Artificial Intelligence: a Modern Approach they talk about AI from the Agent perspective:
+        - In a nutshell, AI has focused on the study and construction of agents that do the right thing. What counts as the right thing is deﬁned. Do the right thing by the objective that we provide to the agent.In a nutshell, AI has focused on the studyI and construction of agents that do the right thing. What counts as the right thing is deﬁnedDo the right thing by the objective that we provide to the agent.
+        - Limited Rationality:
+            - We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments. The computational demands are just too high. Chapters 6 and 16 deal with the issue of limited rationality—acting appropriately when there is not enough time to do all the computations one might like. However, perfect rationality often remains a good starting point for theoretical analysis.We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments. The computational demands are just too high. Chapters 6 and 16 deal with the issue of limited rationality—acting appropriately when there is not enough time to do allLimited rationality the computations one might like. However, perfect rationality often remains a good starting point for theoretical analysis.
+        - 
+    - 
+    - Yet, defining a good objective for the Agent isn't always as easy as thought.
+    - Alignment is the field of making sure that whatever goal we give to the Agent is actually aligned with what we want, not aligned only on the surface. 
+    - 
+    - Creating such independently-acting agents, or learning algorithms that are able to find such complex transformations, requires use of vast number of theories, explaining everything from Epistemology  to decision theory, Mathematics , Economics , Linguistics, Neuroscience and others. 
+    - The need for such broad knowledge of fields is because they study what AI engineers are trying to automate! Usage of language, vision, decision making… (you would’ve learned about music theory if you tried make AI dj, or cooking if AI chef.) 
+    - Such fields usually serve as inspiration to create computer systems that "rhyme", or hard-code some knowledge to limit search space. (Though I presume the ultimate bosses are general learning algorithms with some epistemology connections.)
+    - 
+    - Mathematics : Incompleteness Theory, Computable Functions, Tractability, NP-complete
+        - https://remnote-user-data.s3.amazonaws.com/KLyiD3UJC1ND3VoWp3Ylpc3xWB-D2fuack1HZn5ZeRJyvEx4RlOmnB-nH42cBPCnTPM3CMY8wGiG5WU3evJSFq7nXPDspZG9mZ9jCwSRlJkoTXWCEUAfoKqH6QXS1m_k.pnghttps://remnote-user-data.s3.amazonaws.com/KLyiD3UJC1ND3VoWp3Ylpc3xWB-D2fuack1HZn5ZeRJyvEx4RlOmnB-nH42cBPCnTPM3CMY8wGiG5WU3evJSFq7nXPDspZG9mZ9jCwSRlJkoTXWCEUAfoKqH6QXS1m_k.png
+        - 
+    - Economics : Decision Theory, Markov Decision Process, Satisficing Over Maximizing
+        - https://remnote-user-data.s3.amazonaws.com/8BHPs_Xk45b9c0gh_k6958fZI34URkrf7plZZP1I_oGRuTHwSi4YsA45VbqGQPOIe4PKpDeonyXPBCTFTNGlqGKs8mXle8pDtHdEp8aYEl6L6md2Mst9ZBO74ZuilEiu.pnghttps://remnote-user-data.s3.amazonaws.com/8BHPs_Xk45b9c0gh_k6958fZI34URkrf7plZZP1I_oGRuTHwSi4YsA45VbqGQPOIe4PKpDeonyXPBCTFTNGlqGKs8mXle8pDtHdEp8aYEl6L6md2Mst9ZBO74ZuilEiu.png
+        - 
+        - Satisficing Over Maximizing: the status quo should be that you search for Good Enough solution, only in rare cases it make sense to search for the best solution by trading energy and time. (Say big decisions like Work Strategy decisions, where to live, Partner   and close friends.) ⇒ https://www.perplexity.ai/search/explain-satisficing-under-simo-u74lXr62QS6vH60kSd7l3Q#1
+        - 
+    - Neuroscience: Brain-Computer Interface, Cerebral Cortex
+        - That is, a collection of simple cells can lead to thought, action, and consciousness. In the pithy words of John Searle (1992), brains cause minds.That is, a collection of simple cells can lead to thought, action, and Jconsciousness. In the pithy words of John Searle (1992), brains cause minds.
+        - The development of brain–machine interfaces (Lebedev and Nicolelis, 2006) for both sensing and motor control not only promises to restore function to disabled individuals, but also sheds light on many aspects of neural systems. A remarkable ﬁnding from this work is that the brain is able to adjust itself to interface successfully with an external device, treating it in effect like another sensory organ or limb.The development of brain–machine interfaces (Lebedev and Nicolelis, 2006) for both Brain–machine interface sensing and motor control not only promises to restore function to disabled individuals, but also sheds light on many aspects of neural systems. A remarkable ﬁnding from this work is that the brain is able to adjust itself to interface successfully with an external device, treating it in effect like another sensory organ or limb.
+        - https://remnote-user-data.s3.amazonaws.com/qqcmZk8X6ScDFyvJkSkmzFYMJPjuVvr9EoVYdOLH4wdijn7eyt1dRwj7mpBbJoGCG04vWyqw0efiGkdQkbPc8PNzos6RFQ3QCMiGP248k73AN6Gb-dzx9O8fRvEF6xXU.pnghttps://remnote-user-data.s3.amazonaws.com/qqcmZk8X6ScDFyvJkSkmzFYMJPjuVvr9EoVYdOLH4wdijn7eyt1dRwj7mpBbJoGCG04vWyqw0efiGkdQkbPc8PNzos6RFQ3QCMiGP248k73AN6Gb-dzx9O8fRvEF6xXU.png
+        - Even with a computer of virtually unlimited capacity, we still require further conceptual breakthroughs in our understanding of intelligence (see Chapter 29). Crudely put, without the right theory, faster machines just give you the wrong answer faster.Even with a computer of virtually unlimited capacity, we still require further conceptual breakthroughs in our understanding of intelligence (see Chapter 29). Crudely put, without the right theory, faster machines just give you the wrong answer faster.
+        - Compute vs Human Brain, Cycle Time and Memory:
+        - 
+    - Psychology : Behavioral Science, Cognitive Psychology, Cognitive Science
+        - https://remnote-user-data.s3.amazonaws.com/mUW2V1jOS-HaSjWogdQDchfKfKAmSbljwO8_PCnCdG3WDqBvbOprM3rNIfpVZfHjpl4QZL5AVGb0R00uFYwO5nxkXIDXtkR6kC3dK83qNulwOCCFFkMW1CYA6BfkdPwh.pnghttps://remnote-user-data.s3.amazonaws.com/mUW2V1jOS-HaSjWogdQDchfKfKAmSbljwO8_PCnCdG3WDqBvbOprM3rNIfpVZfHjpl4QZL5AVGb0R00uFYwO5nxkXIDXtkR6kC3dK83qNulwOCCFFkMW1CYA6BfkdPwh.pnghttps://remnote-user-data.s3.amazonaws.com/zXlKW8XvIXhGyc-P0HGfuMb3BeTLwLhc1vPGf7yqDxjVLbauAFcZPViDYqfO5NQ8-tZdJh2LQTCiZZPF7jB2KtfLtzyywPmbPN0Sw-OZJ-BhkITBoSwBqOP5sHFRs1Gv.pnghttps://remnote-user-data.s3.amazonaws.com/zXlKW8XvIXhGyc-P0HGfuMb3BeTLwLhc1vPGf7yqDxjVLbauAFcZPViDYqfO5NQ8-tZdJh2LQTCiZZPF7jB2KtfLtzyywPmbPN0Sw-OZJ-BhkITBoSwBqOP5sHFRs1Gv.png
+        - 
+        - 
+        - 
+    - Computation : Hardware, Electrical Engineering, Moore's Law, Quantum Computing
+        - https://remnote-user-data.s3.amazonaws.com/XhcwYGJm3md1FXZ7MTBFPK7U2GoyjnHBDMIUOelJrAbSAMC75RgOxHANeh0onLKwjKjhSu-eFvdPUV7nXwhPBavTWRyAMyu_21WePzWHvtTwr9T8fhMmgWoKShWXpyaI.pnghttps://remnote-user-data.s3.amazonaws.com/XhcwYGJm3md1FXZ7MTBFPK7U2GoyjnHBDMIUOelJrAbSAMC75RgOxHANeh0onLKwjKjhSu-eFvdPUV7nXwhPBavTWRyAMyu_21WePzWHvtTwr9T8fhMmgWoKShWXpyaI.pnghttps://remnote-user-data.s3.amazonaws.com/iEN2eK8eDxY4lLdokqldathQuu4iqVcdwlplHVBPnEHDshGGqIXk84Juf50DGpSa8Q8pUl1J9srHxrdIVEoZSmC2uA-JDaEYv7DVr4XrWNw9QRcMYpqBQ9s7v9pLtq1Z.pnghttps://remnote-user-data.s3.amazonaws.com/iEN2eK8eDxY4lLdokqldathQuu4iqVcdwlplHVBPnEHDshGGqIXk84Juf50DGpSa8Q8pUl1J9srHxrdIVEoZSmC2uA-JDaEYv7DVr4XrWNw9QRcMYpqBQ9s7v9pLtq1Z.png
+        - 
+    - Robotics: Cybernetics, Control Theory, Cost Function
+        - https://remnote-user-data.s3.amazonaws.com/XY6yGfeY4RVOgSzhY4q_Pqty9VhIszd3VCuuVCLHMPsFH8APzgb5cqSSdRFfezMzVeE3J5cxU-a6TEZAaSnZIJw_uICkp92mPOxuewJHl8pGTLt7c8RYbEa5LQ8Wzwza.pnghttps://remnote-user-data.s3.amazonaws.com/XY6yGfeY4RVOgSzhY4q_Pqty9VhIszd3VCuuVCLHMPsFH8APzgb5cqSSdRFfezMzVeE3J5cxU-a6TEZAaSnZIJw_uICkp92mPOxuewJHl8pGTLt7c8RYbEa5LQ8Wzwza.pnghttps://remnote-user-data.s3.amazonaws.com/2lQ2NgaduceGKmFvVDMCBwIH_YXixfkI9meTQcvv-q1_cqjw97cye2iaGA-pP_wVWCOa2OaRqBWXoCnKNYccMXfnbbOHXZuYVt9BwCplnSJshp1JWiTvRmoetZTe_cXM.pnghttps://remnote-user-data.s3.amazonaws.com/2lQ2NgaduceGKmFvVDMCBwIH_YXixfkI9meTQcvv-q1_cqjw97cye2iaGA-pP_wVWCOa2OaRqBWXoCnKNYccMXfnbbOHXZuYVt9BwCplnSJshp1JWiTvRmoetZTe_cXM.png
+        - 
+    - Linguistics, Natural Language Processing, Noam Chomsky, B.F. Skinner
+        - https://remnote-user-data.s3.amazonaws.com/2EswXEAa2ROGJYGHQXbV-nUlL-CycJsLm7loSJ1qmsVyZrXKNElFJlsx36gbAtj4sgefkJM3kXS-FRo_Qa1X5Amtd3G3Lv2sAN5LmC0jIwNCybkOQn0VrnMLXZvuBDIe.pnghttps://remnote-user-data.s3.amazonaws.com/2EswXEAa2ROGJYGHQXbV-nUlL-CycJsLm7loSJ1qmsVyZrXKNElFJlsx36gbAtj4sgefkJM3kXS-FRo_Qa1X5Amtd3G3Lv2sAN5LmC0jIwNCybkOQn0VrnMLXZvuBDIe.pnghttps://remnote-user-data.s3.amazonaws.com/TL2-yTJyzMWYbjlqqzgF3gKOLmBoGqe_rY73p91ZI6ASaXxzB8-hoHIVP9K3a7rjlf4MS6Qw6HeVRnjxnIyoBB-JBe_psZzNpFh8l6Q8Jm0lNmNEVRIlpxPy_o9i_qQ3.pnghttps://remnote-user-data.s3.amazonaws.com/TL2-yTJyzMWYbjlqqzgF3gKOLmBoGqe_rY73p91ZI6ASaXxzB8-hoHIVP9K3a7rjlf4MS6Qw6HeVRnjxnIyoBB-JBe_psZzNpFh8l6Q8Jm0lNmNEVRIlpxPy_o9i_qQ3.png
+        - 
+    - 
+
