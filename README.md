@@ -30,7 +30,7 @@ I also try to heavily triage what I consider relevant theory and techniques to p
 
 Some of my previous ML work was: doing CS50ai, Andrew Ng's ML Specialialization, and a personal project of making a Paul Graham RAG and connecting it to MCP.
 
-## Weekly Work Log ([2025 Weekly Work Hours]((https://docs.google.com/spreadsheets/d/1rfQKYsyOER4DXbrs000tAxtyGI_Syt5L0C22ac5TzqI/))
+## Weekly Work Log ([2025 Weekly Work Hours]((https://docs.google.com/spreadsheets/d/1rfQKYsyOER4DXbrs000tAxtyGI_Syt5L0C22ac5TzqI/)))
 
 **Sep 2025**
 - W36: Created Paul Graham MCP/ RAG: https://www.youtube.com/watch?v=yWfr8tkJUhA
