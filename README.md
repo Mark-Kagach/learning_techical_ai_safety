@@ -1,4 +1,4 @@
-This is my practice camp for improving my machine learning craft.
+# AI/ML Self-Education
 
 ## The Goal is to: Master ML to solve advanced real-world problems; with deep theoretical understanding to conduct research in a chosen niche.
 
@@ -7,11 +7,11 @@ As of September 2025, this is translated into two specific goals:
 2. Generate a novel ML research idea, implement and communicate it (e.g. writing a paper, or big essay). 
 
 ## Solution
-The solution is **consistency and seriousness of practice**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice) parts.
+The solution is **consistency and seriousness of practice**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice) parts. This repository is a practice camp for improving my machine learning craft.
 
 I publish this because, besides the value of signaling, I work better under public accountability.
 
-Below I describe my learning approach and some additional details.
+Below I describe my learning approach and some additional details. 
 
 ### Learning Algorithm
 1. **Understand** important concepts, techniques.
@@ -32,26 +32,26 @@ Some of my previous ML work was: doing CS50ai, Andrew Ng's ML Specialialization,
 
 ## Weekly Work Log
 **Sep 2025**
-- W36:
-- W37:
-- W38:
-- W39:
-- W40:
+- W36: Created Paul Graham MCP/ RAG: https://www.youtube.com/watch?v=yWfr8tkJUhA
+- W37: Was doing ML Specialization by Andrew Ng.
+- W38: Found it to be too spiky and unfitting for my learning goals, switched to practicing basic Kaggle datasets on my own and Hands-On Machine Learning book.
+- W39: Continued with Kaggle datasets and Hands-on Machine Learning.
+- W40: Mostly self-studying ML concepts, explaining them and revisiting past things with flashcards.
 
 **Oct 2025**
-- W41:
-- W42:
-- W43:
-- W44:
+- W41: Spend most of the time prepping for Coefficient Giving grant (https://www.youtube.com/watch?v=3fMv7pOzPKs), wrote My Evolving Almanack (https://markkagach.substack.com/s/my-evolving-almanack).
+- W42: Started working on the AAAA Hackathon: https://www.hackaging.ai
+- W43: Won AAAA with Elias ($2,500): https://www.linkedin.com/posts/nicholas-gentry-phd_menopause-later-activity-7390066766556856320-EjUN/ https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging
+- W44: Mainly was writing proposal for Coefficient Giving, and mini burn-out❤️.
 
 **Nov 2025**
-- W45:
-- W46:
-- W47:
-- W48:
+- W45: Mostly family travel.
+- W46: Mostly family travel.
+- W47: Finally submitted that lovely Coefficient Giving grant: https://www.youtube.com/watch?v=3fMv7pOzPKs
+- W48: Revisited main explanations of computers, ML, and developed framework for differentiating implicit and explicit coding. Wanted to get fundamentals and big picture really right.
 
 **Dec 2025**
-- W49: 
+- W49: Continued focus on mental models that explain big picture of AI and ML. Read first two chapters of AI Modern approach (80 pages). Now focused on having a broad overview of all AI subfields from the book but ML, DL, RL. (Those I'll explore deeply next.)
 - W50: 
 - W51: 
 - W52: 
