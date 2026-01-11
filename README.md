@@ -1,6 +1,6 @@
 # AI/ML Self-Education
 
-## The Goal is to: Master AI/ML to solve advanced real-world problems; with deep theoretical understanding to conduct research in a chosen niche.
+## The goal is to master AI/ML to solve advanced real-world problems; with deep theoretical understanding to conduct research in a chosen niche.
 
 As of September 2025, this is translated into two specific goals:
 1. Solve an advanced real problem with frontier AI/ML techniques (e.g. winning a hackathon, or personal project). For details see level 3-4 project [here](https://www.youtube.com/watch?v=Bx4BYXOE9SQ&t=186s).
