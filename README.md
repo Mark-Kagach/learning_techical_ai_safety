@@ -10,7 +10,7 @@ As of September 2025, this is translated into two specific goals:
 The solution is **consistent [deliberate practice](https://www.amazon.com/gp/product/0544947223/)**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice) parts. This repository is a public practice camp where I log my training sessions. I publish this because, besides the value of signaling, I work better under public accountability. Below I describe my learning approach and some additional details. 
 
 ### Learning Algorithm
-1. **Understand** important concepts, techniques. Usually means explaining them in my own words and adding to my note knowledge base.
+1. **Understand** important concepts, techniques. Usually means explaining them in my own words and adding to my notes knowledge base.
 2. **Integrate** them. For theory that usually means practicing recalling and explaining these concepts from scratch. For techniques that means practicing through exercises, and growing complexity of completed projects.
 
 [Theoretical practice](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) is mainly divided into uploading my flashcard practices and [feynman lessons](https://www.youtube.com/watch?v=_f-qkGJBPts) explaining whatever important concepts I'm trying to learn.
