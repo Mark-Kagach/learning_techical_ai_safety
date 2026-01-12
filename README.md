@@ -11,7 +11,7 @@ The solution is **consistent [deliberate practice](https://www.amazon.com/gp/pro
 
 ### Learning Algorithm
 1. **Understand** important concepts, techniques. Usually means [explaining](https://www.youtube.com/watch?v=_f-qkGJBPts) them in my own words and adding to my notes knowledge base.
-2. **Integrate** them. For theory that usually means practicing recalling and explaining these concepts from scratch. For techniques that means practicing through exercises from textbooks (e.g. Hands-on ML book by Geron Aurelien), and completing more complex projects with time.
+2. **Integrate** them. For theory that usually means practicing recalling ([spaced repetition](https://gwern.net/spaced-repetition)) and explaining these concepts from scratch. For techniques that means practicing through exercises from textbooks (e.g. Hands-on ML book by Geron Aurelien), and completing more complex projects with time.
 
 ### Details
 The main idea is to treat AI/ML and my training of it with similar attitude as professional athletes treat their [practices](https://open.spotify.com/episode/1V1b314FLv4bn0KbauqvUa?si=dF9lIgVwTFWTmyyWRURUEA&t=4599). (Here are the main books I used to understand what good practice is: Peak, The Art of Learning, Get better at anything, and Ultralearning.)
