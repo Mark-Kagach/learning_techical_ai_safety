@@ -1,0 +1,133 @@
+# Goal
+
+This is a big integrating session. I want to recap all my ai-ml stuff. Then practice integrating all AI safety risk things I have learned, and then go through basic NN-DL stuff I have learned recently. Let's start with NN-DL stuff. I presume I will just build upon this node over the next few days.
+
+# Debrief
+
+### Questions
+### Answers
+
+# Notes
+
+## NN-DL Stuff
+So neural network is a computation structure inspired by the brain. It has neurons, which are connected between each other. Neurons are assembled in layers. From inputs to hidden layers to the final output layer. Imagine the simplest network with three layers. Say 2 inputs, 3 middle neurons, and 1 output neuron.
+
+The simplest version of neural network was proposed by mcculloch & pitts in 1943, they called it perceptron. They wanted to use it to do logical computations. Neurons had binary activations, either on or off, and connection between them allowed for logical operations, like and, or, xor, not and etc. 
+
+🔴 => neural network architecture was invented by mucculloch and pitts in 1943. It has several on/off inputs, and one on/off output. Neuron fires when more than k of its input neurons are firing. Say k threshold could be 2. You could use such network to calculate logical operations. (It was not called perceptron!)
+    (🟡 => I'm actually not sure whether this was the perceptron, and my understanding of how it works is wobbly. it shows this is my first integration session.
+    To be on and fire the neuron had to pass some activation threshold. 🟡 => had hard time recalling.)
+
+🔴 Everything below in NN-DL is just forming my understanding, not recalling whatsoever.
+
+In 1957 rosenblatt introduced perceptron architecture which improves neural networks.
+First, input and output are numbers, not binary activations, and each connection has weight. 
+Each neuron calculates linear function of its inputs, and then applies step-function to decide whether it is activated.
+
+a single perceptron can be a binary classifier, while a few (2+) can be multiclassifiers.
+
+--
+
+I did another round next morning:
+
+So, let's recap once again.
+
+In 1943 Pitts and McCulloch invented neural network computation architecture inspired by the brain. You have neurons that are connected to each other, organized in layers. They had the simple version of neurons being on or off, and neurons would fire if k of its input neurons fire themselves. You can connect neurons in such a way as to do any logical proposition.
+
+In 1957 Rosenblatt improved on architecture by making input output numbers, not binary. Then each connection has associated weight with it, and each neuron also gets its own bias term (think like a neuron with 1 as value).
+Then each neuron sums up its input neuron values multiplied by weight and adding a bias term, i.e. linear function! Yet then they apply step-function to the linear value. This architecture is called a perceptron. Think a single perceptron can have several input neurons, and one output. One perceptron can be a binary classier, put several together and you have multiclassifier. But this is still a very simple architecture. Just literally one layer between input and output. 
+
+(You train the model by calculating appropriate weights and bias, based on difference between predicted and target values and input values.)
+
+In 1969 Marvin Minsky noted that perceptrons kind of suck -- they can only do linearly separable data, not even xor. Which is pretty accurate description at the time being.
+
+Solution? Put several layers of perceptron back to back. But how do you calculate the weights further in? In 1970 lainmaa smth invents backpropagation for similar applications as part of his master thesis...
+
+Yet the connection happens only around 1985 by hinton and others that use backprop to train a multi-layer perceptron. To make it work they also change activation function to logistics as you can calculate gradient vs step-function. Ever since it was the standard way of training NNs.
+
+So, how backprop works?
+
+First we calculate the prediction using random seed weights and biases (aka forward pass), and we save some intermediate values for further computation.
+Second we calculate the loss, given our prediction and target, say by squaring the two.
+Third we go back, i.e. backward pass, and calculate how much each connection contributed to the loss, and update accordingly to decrease it. Basically we do chain rule and get gradient for each connection, and then we use gradient descent for updating every connection.
+
+Cool, what's next.?
+
+Right, why multilayered nns can learn all this complex stuff. Basically activation functions and layering does the trick. Without activation function you just sum up a bunch of linear function to get another linear function. With activation functions you allow for parts of it to be used, combining in different way, and thus we can use those activation function to learn to model complex functions. In fact, NNs can approximate any __continuous__ function.
+
+This is a good integration start, now we need to continue with understanding.
+
+🟢 => Basically all of this is correct, going back to understanding.
+--
+
+Understood the second part of HOMLP chapter 9, now we'll try to integrate it the first time.
+
+So second part is about using multilayer perceptrons for regression, classification, and then they also talk about NNs hyperparameter optimization.
+
+For regression we need just one output neuron.
+
+For classification several depending on whether we want binary classification, or multiclassifiers, and whether they are exclusive or not. (If exclusive we apply softmax in the end.)
+
+Frankly hard to think of what else to add about regression!
+Well as loss we might use MSE, and for classification this will likely be cross entropy.
+
+That's actually all there's to say about regression, remember that NNs are very powerful, hence prone to overfitting, hence we have to control for it. One approach is early stopping.
+
+For classification that's actually also all there's to it. Input and output layers are set automatically depending on the dataset you provide, you only choose hidden layers.
+
+So let's talk the more interesting part of hyperparameter optimization for NNs.
+
+Starting with number of layers. Theoretically even a one layer NNs with sufficient number of neurons will be able to approximate any continuous function. The issue is that layered NN is exponentially more efficient at this approximation (regarding the n of parameters) because it can reapply and build upon its learned representations. Lower levels learn simple patterns like edges, next layers learn curves and straight lines, next one squares, cicles etce, and eventually the last one learn face detection. This is nice as you can reuse the lower level representations when doing new task, like hairstyle identification vs face recognition, as a starting point and make training meaningfully faster. This is called transfer learning.
+
+For most basic tasks you can do several hidden layers, 1-5, and it should suffice.
+
+Number of neurons in a hidden layer depends. There are two approaches, either start too little and gradually increase, or the opposite. The latter is a more prominent technique as you don't risk model being too constrained that it can't learn sufficiently complex representations to solve the task. You avoid having bottleneck layers. (Which sometimes can be good as it forces model to compress.) 
+
+Learning rate is crucial. The best approach is to take half of what is the learning rate that makes model diverge (i.e. loss starts jumping up, increasing). The way to do that is to take very small learning rate, and train model for several hundred iterations. Then increase learning rate by some fixed constant, like 10x, and train several hundred iterations for each. Then you plot the loss against learning rate, and you should see that while it was going down, at some point it starting going back up. You usually want to take learning rate that is 10x less than that.
+
+Batch size. Similarly, there are two approaches. First is to try to fit as big batch size as possible into GPUs RAM (i.e. VRAM), as that would make training go by faster, you just make sure to warm up learning rate; starting with small amount and then building it up.
+
+Other approach is small batch sizes, say 32. As big batch sizes might lead to training/generalizibility issues, which small batches avoid. You can first try as big as you can, and then try smaller one if models fails.
+
+You can also play with optimizers and activation functions if you have time and compute.
+
+That's actually it for chapter 9. 
+
+--
+
+In 1943 Pitts and McCulloch introduce neural network computation architecture which is inspired by our brain.
+
+It has neurons which are connected with each other. They are organized in layers. Each neuron is binary either on or off. If more than k of its input neurons fire (on) it will fire too. The connections between neurons can be structured in a way that this simple model can do any logical proposition.
+
+In 1957 Rosenblatt improves on that architecture. He make input and output numbers, instead of binary. And each connection has associated weight. Each neuron sums up its input neuron values multiplied by connection weight and bias -- simple linear function. Then it applies step function to give an output. 
+
+This is a perceptron, one perceptron is a binary classifier. If you put a few together they could be a multiclassifier. Yet it is still very primitive -- one layer directly output.
+
+Oh, and how do we train such model? Well, we need to find appropriate weights and biases. You compare the predicted value based on initial random seed, then based on learning rate and target value update them, w0 is bias and x0 is 1 to accommodate it.
+
+So, in 1969 Minsky pointed out that neural networks can't deal with non-linearly separable data. Think even simple xor! Which is super true!
+
+Solution? Well, just try using more than one layer...
+
+The issue is, how do you calculate the weights in those hidden layers? This became complex and inefficient. Though in 1970 Linnainmaa invented backpropagation that would do forward pass and compute prediction, then go back and do backward pass calculating how much each connection contributed to the total loss, tweaking it in the right direction.
+
+In 1985 Hinton and others implemented backprop in a neural network, they also changed activation functions to logistics so that gradients can be calculated. This turned out to be a very efficient way to compute neural networks, and it stayed the standard ever since.
+
+How backprop is calculated? 
+
+We do forward pass calculating the prediction and saving some intermediate values for further calculation.
+
+We then calculate the loss.
+
+We then do backward pass, going back and tracing how much each connection contributed to error. We do this loop until the input layer. By the end we have gradient for each connection.
+
+Lastly we update connection weights (+ bias with 1 as input) based on its gradient and gradient descent formula!
+--
+
+Cool, we're back to understanding, now its homlp ch. 10.
+
+## AI Safety Stuff
+## ML
+## AI
+
+
